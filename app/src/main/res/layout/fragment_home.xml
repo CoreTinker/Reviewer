@@ -1,0 +1,255 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:visibility="visible"
+        android:id="@+id/home"
+        android:background="#450100">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView"
+                android:layout_margin="15dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Conduct of the Examinations"
+                        android:id="@+id/jj"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView6"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#111111" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Unless otherwise officially announced, the examinations shall be totally computerized.  The Board shall provide a minimum of 500 questions for each subject from which the computer of the Commission will select at random on the day or a few days prior to the examination the questions to be given. The number of questions for each subject shall not be less than 20 at 4 points each. The maximum number of questions shall not be more than 100 at 1 point each.  The examination shall be closed books and notes. Examinees shall be given 10 computation and scratch sheets which must be submitted with the answer sheets. "
+                        android:id="@+id/aa"
+                        android:layout_gravity="center_horizontal|left"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView19"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Tips &amp; Guidelines"
+                        android:id="@+id/bb"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView22"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Preparing for the board exams is one thing. Answering the actual board exams is another.  After long sleepless nights of eyebrow burning during your review, your date with the board exams has finally come. It is a day most people are dreading. But for some people who are confident and have painstakingly prepared on how to go about in the actual board exams, this day is their milestone.  I have taken a total of three (3) PRC Licensure Examinations as of this date. The first was the Licensure Examination for Architects in June 2006 where I placed 1st with a grade of 84.6% (only 470 out of the 1,105 examinees passed the exam or about 42%). The second was the Licensure Examination for Master Plumbers in March 2007 where I placed 10th with a grade of 76.1% (only 77 out of the 174 examinees passed the exam or about 44%). The most recent was the Licensure Examination for Environmental Planners this June 2008 where I placed 4th with a grade of 76.0% (only 26 out of 55 passed the exam or about 47%).  Given my experience in taking board examinations, I would like to share with you, in my own little way, how I did it. In this article, you will find pointers and pieces of advice that would help you prepare for exam day. This article is a complementary sequel to my previous one written a year ago – “Tips &amp; Tricks in the Board Examination” – in which I talked about preparing for an efficient board exam review. It is my hope that as you read along you will gain confidence, study vigorously and be inspired even more to reach your dreams of passing (and hopefully topping) the board exams. "
+                        android:id="@+id/cc"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView24"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TIP #1: BRUSH UP ON YOUR READING COMPREHENSION SKILLS Your ability to understand whatever you read is no doubt the most important aspect in the board exams (and, more importantly, in your careers). Every word that appears in the question that you read serves as clues to the right answer. During the exam, you will encounter questions wherein you will not be able to recall the word-by-word definition as taken from the book or reviewer. If this happens (and I am sure it will happen frequently), you would then have to rely on analysing the meaning of the question being asked based on the words that you see. The higher your comprehension of what is being asked or defined, the higher your chances of getting the answer correctly.  There are several ways to improve your reading comprehension. These need not be lifeless and boring like memorizing the encyclopaedia or the dictionary. Try to grab your favourite magazine or a newspaper once in a while and read some articles found in there. It can be about fashion, cars, current events, show business, music, and games whatever your interest is. The point here is to immerse yourself on trying to understand whatever it is that you read. Also, you can increase your vocabulary by playing games like crossword puzzles, boggle, hangman, scrabble, etc. "
+                        android:id="@+id/dd"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView27"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#111111" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TIP #2: BE PHYSICALLY AND PSYCHOLOGICALLY PREPARED Never underestimate your body’s limitation. I have stressed in my previous article the importance of being physically prepared in your review. The same thing goes for during the exam itself. Avoid drowsiness by getting a long-night’s sleep the night before the exam. If you are itching to do a last-minute study or browsing of notes, I suggest you do it the next morning before you go to the exam venue.  Attend to your personal needs before the examination begins. Depending on the strictness of the assigned proctors, you are not allowed to go out of the room once the exam has started. So watch what you eat and drink. You are, however, allowed to bring food and drinks and consume them while taking the exams. I strongly recommend that you bring something that is just light for your stomach and something that is not too messy, noisy, or smelly to eat.  During the examination, you should be ready for long hours of thinking and answering. Depending on the subject, board exams usually last from 3 hours to as long as 6 hours (even 9 hours for design subjects). Be prepared for uncomfortable seats (like drafting table chairs with no backrests or wooden armchairs with no cushions). While answering, take some 2-minute rests once in a while to recharge your mind and body. Doing a little stretching or closing your eyes for a few minutes might also help.  Just as much as your physical condition is important in the board exams so are your mental and emotional states. Do not let pressure and nervousness control you. You must be able to control them. The board exam is like a war and you will be going into battle. You have to release that warrior instinct in you and own the examination. More people with positive mental attitudes succeed in life than people who are pessimistic. Declare that you are going to win and that nothing can stop you from doing so. "
+                        android:id="@+id/ee"
+                        android:layout_gravity="center_horizontal|left"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView29"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TIP #3: WHAT YOU HAVE WRITTEN, YOU HAVE WRITTEN You would be required to use pencils to shade answers in your exam because answer sheets are checked using lead-sensor machines. Erasures are prohibited. Once you have shaded an answer, you cannot change it and pick another one. Erasing a previously shaded answer will still leave spots of lead on the paper. This means that when your answer sheet is processed by the machine, it will detect two answers and will automatically mark that item wrong.  This is the very reason why I do not recommend using your answer sheets immediately. This method is prone to errors and is very risky since you are already finalizing your answers without even seeing the rest of the questions which might give additional hints or clues.  I know an examinee that has had a very bad experience with this. He was directly shading answers on his answer sheet as he reads a question on his questionnaire. The problem started when he skipped a question he does not know (say, Question # 10). He proceeded to the next one (Question # 11) but subconsciously shaded # 10 in the answer sheet. It went on for about 15 more items before he realized he was shading the wrong numbers!  The best way to avoid these kinds of errors is to use your questionnaires as your temporary answer sheets first and then transfer them later. I usually allot one (1) hour for the transferring and final checking of my answers (as I will be discussing in Tip #5). You are allowed to write on your questionnaires. In fact, PRC would even advise you to use your questionnaires as your scratch papers. So use your questionnaires as your “thinking pad”. Write down notes and tables, encircle or underline important words, cross out choices you think does not belong, etc "
+                        android:id="@+id/ff"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView31"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TIP #4: WHAT’S THE HURRY? – MAKE THE MOST OUT OF YOUR TIME So much as time management is important in your review, so is it important during the board exam itself. First order of business is to know which subjects you are going to tackle on which time or days. PRC releases an exam schedule alongside the syllabus of the subjects in your particular licensure examination. For example, in the recently held Licensure Examination for Environmental Planners, the exams were to be held in two days. Day 1 covers one subject (i.e., Environmental Planning Processes, Methods, and Strategies). This subject is scheduled from 8:00am to 2:00pm (or 6 hours). Day 2, on the other hand, covers two subjects. The first subject (i.e., History, Concepts, Theories, and Principles of Environmental Planning) is scheduled from 8:00am to 11:00am (or 3 hours), while the second subject (i.e., Environmental Plan Implementation and Legal Aspects) is scheduled from 12:00pm to 4:00pm (or 4 hours).  Having known the number of hours allotted, the next step is to try to know the number of questions or items for each subject. In the example above, the Day 1 subject of Environmental Planning Processes, Methods, and Strategies consists of 200 questions. With 6 hours allotted for this subject, I first subtract an hour for transferring of answers (see Tip #4). This gives me 5 hours to answer a total of 200 questions (and 1 hour for transferring and finalizing my answers). So the rate in which I have to answer is given at 200 questions per 300 minutes. Simplifying, this means I have 1 minute and 30 seconds to answer one question in my Day 1 subject.  The same formula goes for the other subjects. In the same example above, the first subject in Day 2 (i.e., History, Concepts, Theories, and Principles of Environmental Planning) consists of 100 questions. With 3 hours allotted for this subject, I subtract an hour for transferring of answers. This gives me 2 hours to answer a total of 100 questions. So the rate in which I have to answer is given at 100 questions per 120 minutes. Simplifying, this means I have 1 minute and 12 seconds to answer one question in my Day 2 subject.  Another very important thing to remember is that each question, regardless of its difficulty, is just worth 1 point. So, I strongly recommend that you answer the easier questions first. If you do not know the answer or you are having difficulties deciding which among the choices to pick, just skip it immediately and proceed to the next item. You must not waste too much time thinking and fishing for an answer on a very difficult question. You will be going back to it later after you have read all the others. This is a very good strategy because sometimes there are questions or choices similar to the one you are having trouble with that would help you get to the right answer (see example in Tip #7).  Keep track of your time by wearing a wrist watch (not a cellular phone since you would have to turn this off and surrender to the proctors). Do not be forced to finish your exam early just because other examinees are finishing their exams way ahead of everyone else. You will encounter in your classroom these kinds of examinees that will stand up and submit their answer sheets just one or two hours after the exam has started. Well, that’s their business. You mind your own exam. You do not get additional points for finishing first. So make the most out of your time by double-checking and triple-checking your answers in your questionnaire until you are satisfied before transferring them to your answer sheet as your final answers. "
+                        android:id="@+id/gg"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView33"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TIP #5: PRACTICE ELIMINATION – EXPLOIT THE WEAKNESS OF MULTIPLE-CHOICE QUESTIONS The 70’s board exam was all about identification, fill-in-the-blanks, and written essays that are checked manually. Nowadays, the board examinations are “modernized” and are checked using the computer. For ease of checking, questions are now prepared with multiple choices. This modernization of the board exam has actually made your lives much easier in so far as getting an answer correctly. Multiple-choice questions, usually with 4 choices (A, B, C or D), give you a higher probability of getting a right answer than identification questions… simply because the answer is already there – you just have to pick it.  Practice the art of elimination to increase this probability especially for questions you do not know. Here is an example of a question I have encountered in the board exam in which I do not know the exact answer but was able to figure out by means of elimination:  Question: Who is this Swiss-born architect who designed the San Francisco Museum of Modern Art?  Choices: a. Le Corbusier b. Frank Lloyd Wright c. Santiago Calatrava d. Mario Botta  From the question, we already know that we are looking for an architect who was born in Switzerland. Among the choices, I am only familiar with Le Corbusier and Frank Lloyd Wright (I have heard of the Calatrava guy before but not in detail). Based on what I know in college, I was able to identify immediately that Frank Lloyd Wright is an American architect who worked during the late 1800’s towards the 20th century. Having eliminated choice B, my probability of getting a right answer increased from 1:4 (or 25%) to 1:3 (or 33.3%). I then continued analysing my three remaining choices.  I then remembered one magazine article I read regarding the works of this Santiago Calatrava. He is an engineer-architect and was, as I recalled, probably a Spaniard. If C is the right answer, the question should have mentioned that he is a civil engineer because I heard that his works were known for its outstanding structural beauty. Since the question did not mention anything about it and I was convinced he is really from Spain (judging by his surname), I then eliminated choice C, leaving me with only two options to choose from. My probability of getting a right answer now increased from 1:3 (or 33.3%) to 1:2 (or 50%).  With only two remaining choices, I know that Le Corbusier is a Swiss-born architect. So, choice A might be correct. But he is one of the well-known architects during the 1930’s, and I never heard of his designing a museum in San Francisco. Also, I remembered from an internet article that this museum was built around the 80’s or 90’s (since it was a modern art museum). Even though Le Corbusier was born in Switzerland, he might not have been alive when this museum was designed. So having that analysis, I eliminated choice A (Le Corbusier) and decided to choose the lesser-known choice D (Mario Botta).  After the exams, I researched to see if I had the right analysis, and true to what I thought, I was right. Mario Botta was that Swiss-born architect who designed the San Francisco Modern Art Museum.  The ability to eliminate choices depends on how much knowledge you have on the other given choices. That is why the more you have prepared in your review and the more topics you have read, the higher the chances of you knowing which choices to eliminate. Otherwise, you might be running the risk of eliminating the correct answer. "
+                        android:id="@+id/hh"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView35"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TIP #6: READ QUESTIONS VERY, VERY CAREFULLY – BE AWARE OF STINGERS Read the question twice, thrice or even four times before you answer. Do not be a high-speed answerer by just reading the first few lines of the question and assuming that you already know what is being asked. You might miss important words that give hints to the right choice. You also have to look out for “Stinger Words” like the words NOT and EXCEPT. For example:  Question: The postmodern movement was an answer to the modernists’ principles of mass production, standardization, and the international style of architecture – that often diminishes the architectural character of a certain culture, promotes machines rather than human art, and removes the complexity and variety of structures in the 20th century. Which among the following characteristic is not among the principles of the postmodern movement? Question: The following are examples of baroque churches in the Philippines established under Spanish rule, except:  In the two examples above, you have to be aware on what is being asked for. A clumsy examinee would often miss out the words “NOT” and “EXCEPT”. He would answer right away after just reading a few lines on the question not knowing he is answering the direct opposite of what is being sought.  Another important tip is to analyse the questions and forget about “patterns”. Most of us fall victim to these patterns. Wherein we judge a correct answer based on how it looks like. For example, I encountered a question in which I have no idea what the answer is:  Question: Which among the following laws, established in 1935, has not be amended and is still used today?  Choices: a. RA 7482 b. RA 6969 c. Commonwealth Act No. 141 d. RA 4726  Most of us who look at patterns would generally eliminate choice C and concentrate on the other choices which “look similar”. Never base your answers because of “patterns” or “whatever looks similar”. In the above example, there is actually a clue that somewhat gives out the right answer if you only try to analyze it. Notice that the law being sought was established in 1935. With the given choices, I know that RA (or Republic Acts) were only established during the post-Marcos era. Also, 1930’s was the Commonwealth Period in the Philippines where we were still under the auspices of the American Government. Therefore, through analysis (and not by patterns), I was able to pick the right answer by choosing C even though I honestly really don’t know what that law is all about. "
+                        android:id="@+id/ii"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView59"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="TIP #7: WILL YOU DREAD THE EXAM OR WILL YOU DECLARE TO EXCEL? This final tip takes us back to my introduction: Are you one of the people who dread the exam or are you one of the few who will declare they will excel?  Be honest, for you are the only one who can answer this.  All I can say for now as my final advice is this: Never look at things as problems or troubles that would hinder your development as a person. Look at things as challenges and opportunities for you to learn and grow.  If your answer to my question is the latter, then I believe you are on your way to creating your own milestone.  Good luck in your board examinations and always aim for that top spot! "
+                        android:id="@+id/textView45"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:textSize="14dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView46"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </RelativeLayout>
+

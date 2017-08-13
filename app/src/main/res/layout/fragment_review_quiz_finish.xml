@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thesis.eng.reviewer.fragment.ReviewQuizFinishFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Are you done?"
+        android:textSize="40sp" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/btnSubmit"
+        style="@style/Material.Drawable.Ripple.Wave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#400404"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="SUBMIT"
+
+        android:textColor="#ffc9c9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rd_enable="true" />
+
+</LinearLayout>
